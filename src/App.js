@@ -28,7 +28,7 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = dispatch => {
-  return {store.dispatch()}
+  return {addItem: () => {dispatch(addItem())}}
 }
 
 
